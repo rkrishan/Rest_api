@@ -1,0 +1,17 @@
+URL for Creating New USER 
+
+http://127.0.0.1:8000/restapi/create/users/
+
+
+Get Detail as per Query set 
+
+http://127.0.0.1:8000/restapi/users/?page=1&limit=10&name=James&sort=-age
+
+
+Get Detail of single User 
+http://127.0.0.1:8000/restapi/users/1/
+
+Get All User Details
+http://127.0.0.1:8000/restapi/users/
+
+
