@@ -6,7 +6,7 @@ from .views import GetList
       
 
 urlpatterns = [
-    path('createdetail/', CreateView.as_view(),name="create"),
+    path('create/users/', CreateView.as_view(),name="create"),
     path('users/', GetList.as_view(),name="getdetail"),
     re_path(r'^users/(?P<pk>[0-9]+)/$',DetailsView.as_view(), name="details"),
     
