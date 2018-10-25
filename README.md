@@ -8,5 +8,7 @@ Django == 2.12<br/>
 Python == 3.5<br/>
 Django rest framework for serialization of the data<br/>
 
+Adding A text file in which I have explain all URL Query set 
+
 
 
